@@ -1,0 +1,24 @@
+{
+  "name": "change-all-the-bad-things",
+  "version": "1.0.0",
+  "description": "A page that gathers information from people who want to be part of the change.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilo-cupido/Change-All-The-Bad-Things.git"
+  },
+  "author": "Danilo Cupido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilo-cupido/Change-All-The-Bad-Things/issues"
+  },
+  "homepage": "https://github.com/danilo-cupido/Change-All-The-Bad-Things#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0"
+  }
+}
