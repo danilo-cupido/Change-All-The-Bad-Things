@@ -3,10 +3,11 @@
 :root {
   --font: 'Josefin Sans', sans-serif;
   --background-color: rgb(238, 238, 228);
-  --red-color: rgb(255, 93, 44);
+  --alert-color: rgb(238, 66, 54);
 }
 
 body {
+  margin: 30px 8px;
   height: 90vh;
   font-family: var(--font);
   background-color: var(--background-color);
@@ -21,14 +22,12 @@ body {
 }
 
 .main {
-  /* margin: 0; */
   height: 90%;
 }
 
 .section__form {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   height: 90%;
 }
 
@@ -37,6 +36,46 @@ body {
   flex-direction: column;
 }
 
+label,
+fieldset {
+  margin: 5px 0 3px 0;
+}
+
+.submit__button {
+  margin: 10px auto;
+  font-size: 1.5rem;
+  font-family: var(--main-font);
+  padding: 6px;
+  border-radius: 5%;
+  border: 2px black;
+  box-shadow: 0 1px 1px 1px gray;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.alert_name,
+.alert_birth,
+.alert_email,
+.alert_validEmail,
+.alert_phone,
+.alert_validPhone {
+  color: var(--alert-color);
+}
+
 .thanks {
   text-align: center;
+  font-size: 1.2rem;
+}
+
+.invisible {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .container__form {
+    padding: 20px;
+    border-radius: 5%;
+    border: 2px black;
+    box-shadow: 0 1px 1px 1px gray;
+  }
 }
