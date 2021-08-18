@@ -21,44 +21,44 @@
         Please fill the form below and start to be part of the change!
       </p>
       <section class="section__form">
-        <form class="container__form" id="form" action="" method="POST">
+        <form class="container__form" id="form">
           <label for="name">Name</label>
           <input
             id="name"
             name="name"
             type="text"
             placeholder="Enter your name"
-            required
           />
+          <p class="alert_name invisible">Please insert your name</p>
 
           <label for="birthday">Birthday</label>
-          <input
-            type="date"
-            id="birthday"
-            name="birthday"
-            max="2003-12-31"
-            required
-          />
+          <input type="date" id="birthday" name="birthday" max="2003-12-31" />
+
+          <p class="alert_birth invisible">Please select your date of birth</p>
 
           <label for="email">Email</label>
           <input
             id="email"
             name="email"
-            type="email"
+            type="text"
             placeholder="Enter your email"
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$"
-            required
           />
+          <p class="alert_email invisible">Please insert your email</p>
+          <p class="alert_validEmail invisible">
+            Please insert a valid email address
+          </p>
 
           <label for="tel">Telephone</label>
           <input
             id="tel"
             name="tel"
-            type="tel"
+            type="text"
             placeholder="Enter your phone number"
-            pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9{2}[ ]?[0-9]{4})|(0[1-8]{1}[0-9]{3}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$"
-            required
           />
+          <p class="alert_phone invisible">Please insert your phone number</p>
+          <p class="alert_validPhone invisible">
+            Please insert a valid UK number
+          </p>
 
           <fieldset>
             <legend>Please choose your preferred contact method</legend>
@@ -81,7 +81,7 @@
             <label for="contact-tel" class="radio">Telephone</label>
           </fieldset>
 
-          <button type="submit">Submit</button>
+          <button type="submit" class="submit__button">Submit</button>
           <p class="thanks invisible">Thank you! You will be contacted soon!</p>
         </form>
       </section>
