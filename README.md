@@ -12,9 +12,9 @@ The aim of this project is to gather information from people interested in the c
 
 The form should collect the following details:
 
-- [ ] name
-- [ ] email address
-- [ ] date of birth
-- [ ] telephone number
-- [ ] preferred method of contact (email/telephone)
-- [ ] details must be valid
+- [x] name
+- [x] email address
+- [x] date of birth
+- [x] telephone number
+- [x] preferred method of contact (email/telephone)
+- [x] details must be valid
